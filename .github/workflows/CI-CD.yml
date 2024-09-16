@@ -34,7 +34,6 @@ jobs:
       - name: Generate Github Pages Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          name: ./front/.next
           path: ./front/.next
   deploy:
     runs-on: ubuntu-latest
